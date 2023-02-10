@@ -1,0 +1,52 @@
+.App {
+  margin: 24px auto;
+  width: 600px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.Error {
+  color: red;
+}
+
+.Tabs {
+  display: flex;
+  justify-items: center;
+  gap: 16px;
+}
+
+.TabButton {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.TabButton:hover {
+  text-decoration: underline;
+}
+
+.TabButton.Active {
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+
+.TabContent {
+  padding-top: 24px;
+}
+
+.Visible {
+  display: block
+}
+
+.Invisible {
+  display: none;
+}
